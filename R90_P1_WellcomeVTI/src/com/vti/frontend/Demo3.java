@@ -28,5 +28,24 @@ public class Demo3 {
 		System.out.println("dia_chi: " + hocvien1.dia_chi);
 		System.out.println("mau_toc: " + hocvien1.mau_toc);
 		System.out.println("mau_da: " + hocvien1.mau_da);
+
+//		
+		hocvien1.an();
+		hocvien2.an();
+//
+		hocvien1.choi();
+		hocvien2.choi();
+//		
+		System.out.println("----------------------------------------------");
+		System.out.println("Mời các bạn học viên giới thiệu bản thân");
+		hocvien1.gioi_thieu();
+		hocvien2.gioi_thieu();
+
+//		
+		System.out.println("----------------------------------------------");
+		System.out.println("Mời các bạn học viên giới thiệu bản thân, sử dụng phương thức toString()");
+
+		System.out.println("Thông tin đối tượng 1 la: " + hocvien1.toString());
+		System.out.println("Thông tin đối tượng 2 la: " + hocvien2.toString());
 	}
 }
