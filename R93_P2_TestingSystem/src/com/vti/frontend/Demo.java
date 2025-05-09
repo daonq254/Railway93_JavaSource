@@ -120,5 +120,29 @@ public class Demo {
 
 		System.out.println("Thông tin Account 2 là: " + account2.toString());
 
+//		Question 8
+		System.out.println("---------------------Question 8----------------------------");
+//	Tạo ra mảng Account
+		Account[] accounts = { account1, account2, account3 };
+		for (Account account : accounts) {
+			System.out.println("AccountID: " + account.id);
+			System.out.println("AccountEmail: " + account.email);
+			System.out.println("AccountFuname: " + account.fullname);
+			System.out.println("AccountDepartment: " + account.department.name);
+//			System.out.println(account.toString());
+			System.out.println("-------------------------");
+		}
+		System.out.println("------------------------------------------------------------");
+
+//		Question 10
+		System.out.println("---------------------Question 10----------------------------");
+		Department[] departments = { department1, department2, department3 };
+		for (int i = 0; i < departments.length; i++) {
+			System.out.println("Department ID: " + departments[i].id);
+			System.out.println("Department Name: " + departments[i].name);
+			System.out.println("-------------------------");
+
+		}
+
 	}
 };
