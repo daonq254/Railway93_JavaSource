@@ -1,6 +1,7 @@
 package com.vti.frontend;
 
 import com.vti.entity.Mentor;
+import com.vti.entity.Trainee;
 
 public class Demo1 {
 	public static void main(String[] args) {
@@ -24,12 +25,22 @@ public class Demo1 {
 //		Tạo mentor2 bằng cách sử dụng hàm tạo có đầy đủ tham số?
 		Mentor mentor2 = new Mentor(2, "daonq2@gmail.com", "daonq2", "Nguyễn Đạo 2", 5);
 		mentor2.showInfoMentor();
+		mentor2.goToVTI();
 
+		Trainee trainee = new Trainee();
+		trainee.goToVTI();
 //		System.out.println("Thông tin Mentor2:");
 //		System.out.println("ID: " + mentor2.getId());
 //		System.out.println("Email: " + mentor2.getEmail());
 //		System.out.println("Username" + mentor2.getUsername());
 //		System.out.println("Fullname: " + mentor2.getFullname());
 //		System.out.println("Experience: " + mentor2.getYearOfExperience());
+
+//		Account account = new Account();
+//		account.setId(1);
+//		account.setEmail("account1@gmail.com");
+//		account.setUsername("account1");
+//		account.setFullname("Account 1");
+
 	}
 }

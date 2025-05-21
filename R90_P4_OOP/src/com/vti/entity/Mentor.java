@@ -1,6 +1,6 @@
 package com.vti.entity;
 
-public class Mentor extends Account {
+public class Mentor extends Account implements IVTI {
 //	private int id;
 //	private String email;
 //	private String username;
@@ -40,5 +40,21 @@ public class Mentor extends Account {
 		System.out.println("Experience: " + this.yearOfExperience);
 
 	}
+
+	@Override
+	public void goToVTI() {
+		System.out.println("Mentor go to VTI to work!!");
+
+	}
+
+	@Override
+	public void goToVTI_() {
+		// TODO Auto-generated method stub
+
+	}
+
+//	void goToVTI() {
+//		System.out.println("Mentor go to VTI to work!!");
+//	}
 
 }

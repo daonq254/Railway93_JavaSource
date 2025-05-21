@@ -1,11 +1,14 @@
 package com.vti.entity;
 
-public class Account {
+public abstract class Account {
 //	Thuộc tính
 	private int id;
 	private String email;
 	private String username;
 	private String fullname;
+
+// Phương thức chung của các lớp con bắt buộc phải có
+	public abstract void goToVTI();
 
 //	Hàm contructor
 	public Account() {
