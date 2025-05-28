@@ -21,8 +21,8 @@ public class Demo2 {
 			System.out.println("Result: " + result);
 
 //			
-			int[] numberArray = new int[3];
-			numberArray[4] = 1;
+//			int[] numberArray = new int[3];
+//			numberArray[4] = 1;
 
 		} catch (InputMismatchException e) {
 //			e.printStackTrace();
@@ -31,6 +31,8 @@ public class Demo2 {
 			System.err.println("Không thể thực hiện phép chia cho số 0");
 		} catch (Exception e) {
 			System.err.println("Đã có lỗi xảy ra, hãy kiểm tra lại");
+		} finally {
+			System.out.println("Đã thực hiện xong đoạn code 5!!");
 		}
 
 		System.out.println("Code 6");
