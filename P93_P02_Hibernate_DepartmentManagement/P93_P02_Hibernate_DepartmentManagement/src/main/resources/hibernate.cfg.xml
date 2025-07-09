@@ -7,7 +7,7 @@
 	<session-factory>
 		<!-- Database connection settings -->
 		<property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
-		<property name="connection.url">jdbc:mysql://localhost:3306/TestingSystem_Hibernate_Railway93</property>
+		<property name="connection.url">jdbc:mysql://localhost:3306/testingsystem_hibernate_railway93</property>
 		<property name="connection.username">root</property>
 		<property name="connection.password">root</property>
 
@@ -18,6 +18,7 @@
 
 		<!-- other -->
 		<property name="hibernate.connection.characterEncoding">utf8</property>
+
 	</session-factory>
 </hibernate-configuration>
 
